@@ -44,13 +44,13 @@
         </tr>
         <tr>
             <td rowspan="3">Catatan Khusus :</td>
-            <td><input type="checkbox" name="notes" value="Kehadiran >= 70 %">Kehadiran >= 70 %</td>
+            <td><input type="checkbox" name="check_list[]" value="Kehadiran >= 70 %">Kehadiran >= 70 %</td>
         </tr>
         <tr>
-            <td><input type="checkbox" name="notes" value="Interaktif dikelas">Interaktif dikelas</td>
+            <td><input type="checkbox" name="check_list[]" value="Interaktif dikelas">Interaktif dikelas</td>
         </tr>
         <tr>
-            <td><input type="checkbox" name="notes" value="tidak terlambat mengumpulkan tugas">tidak terlambat mengumpulkan tugas</td>
+            <td><input type="checkbox" name="check_list[]" value="tidak terlambat mengumpulkan tugas">tidak terlambat mengumpulkan tugas</td>
         </tr>
         </tbody>
     </table>

@@ -67,6 +67,7 @@
   } else {
     $status1 = 'Lulus';
   }
+
 ?>
 
 <table class="tg">
@@ -92,7 +93,13 @@
         <?=$status1?>
       </td>
       <td>
-        <?=$notes?>
+        <?php
+            if (isset($_POST['check_list'])) {
+              foreach($_POST['check_list'] as $check) {
+                echo $check.'<br>';
+              }
+            }
+        ?>
       </td>
     </tr>
   </tbody>
