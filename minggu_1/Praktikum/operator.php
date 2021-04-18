@@ -1,5 +1,5 @@
 <?php
-$gaji = 2500000;
+$gaji = 1000000;
 $pajak = 0.1;
 $thp = $gaji - ($gaji*$pajak);
 echo "Gaji sebelum pajak = Rp. $gaji <br>";
