@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.page-container {
+	padding: 15vh 10vh;
+}
+
+.page-footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	padding: 3px;
+	background-color: #ffdd36;
+}
